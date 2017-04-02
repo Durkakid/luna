@@ -1,0 +1,102 @@
+html, body {
+  width: 100%;
+  margin: 0;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.title {
+  position: absolute;
+  padding-top: 16%;
+  padding-left: 41%;
+}
+
+.md-display-4 {
+  color: #ffffff;
+  font-weight: 200;
+  text-shadow: 0 0 10px #ffffff;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+.md-headline {
+  position: absolute;
+  background-color: transparent;
+  /* background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0)); */
+  color: #ffffff;
+  font-weight: 400;
+  text-shadow: 0 0 10px #ffffff;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  opacity: 1;
+  margin-top: 18.5%;
+  margin-left: 33%;
+  padding: 0%;
+  width: 491px;
+  text-align: center;
+  font-size: 49px;
+  line-height: 100%;
+}
+
+.buttons {
+  position: absolute;
+  height: 776px;
+}
+
+.col {
+  padding-left: 450px;
+  padding-right: 450px;
+}
+
+.lunaButton {
+  padding-top: 50%;
+  padding-bottom: 50%;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, .90) !important;
+  color: #000000;
+  width: 75px !important;
+  height: 75px !important;
+  box-shadow: inset 15px 0px 0px 0px rgba(0, 0, 0, .8), 0px 0px 7px 5px rgba(255, 255, 255, .3) !important;
+  transition: all 0.1s cubic-bezier(.25, .8, .25, 1);
+}
+
+#crescent {
+  box-shadow: inset -15px 0px 0px 0px rgba(0, 0, 0, .8), 0px 0px 7px 5px rgba(255, 255, 255, .3) !important;
+}
+
+#crescent:hover {
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0), 0 0 15px 15px rgba(255, 255, 255, .3) !important;
+}
+
+.button:hover {
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0), 0 0 15px 15px rgba(255, 255, 255, .3) !important;
+  background-color: rgba(255, 255, 255, 1) !important;
+}
+
+
+.md-headline.ng-hide-add, .md-headline.ng-hide-remove {
+  transition: all linear 0.5s;
+}
+
+.md-headline.ng-hide {
+  opacity: 0;
+  filter: blur(10px);
+}
+
+.md-display-4.ng-hide-add, .md-display-4.ng-hide-remove {
+  transition: all linear 0.5s;
+}
+
+.md-display-4.ng-hide {
+  opacity: 0;
+  filter: blur(10px);
+}

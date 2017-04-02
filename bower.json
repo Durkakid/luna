@@ -1,0 +1,24 @@
+{
+  "name": "luna",
+  "description": "a Sails application",
+  "main": "app.js",
+  "authors": [
+    "Samir"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-material": "^1.1.1",
+    "fullpage.js": "fullpage#^2.8.6",
+    "angular-fullpage.js": "^0.2.1",
+    "gsap": "greensock#^1.19.0"
+  }
+}
